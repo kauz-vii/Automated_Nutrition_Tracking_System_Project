@@ -1,2 +1,2 @@
 # Macros_Tracker_Automation
-Automating Macros tracking using Python
+Automated Nutrition Tracking System using Python & Excel
