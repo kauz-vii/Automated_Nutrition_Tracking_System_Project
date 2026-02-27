@@ -105,7 +105,7 @@ Creates a new row if today's date does not exist.
 
 ## Tools & Technologies
 
--   Python\
+-   Python
 -   openpyxl → Excel automation
 -   pyperclip → Clipboard monitoring
 -   PyInstaller → Standalone executable
