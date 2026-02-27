@@ -45,7 +45,11 @@ def update_excel(cal, pro, carb, fat):
     wb.save(FILE)
 
 while True:
-    text = pyperclip.paste()
+    try:
+        text = pyperclip.paste()
+    except:
+        time.sleep(0.3)
+        continue
 
     if text != last_text and "FINAL_MACROS:" in text:
         try:
