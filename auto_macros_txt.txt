@@ -61,5 +61,4 @@ while True:
 
         last_text = text
 
-
     time.sleep(1)
