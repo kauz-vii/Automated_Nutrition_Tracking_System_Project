@@ -12,7 +12,7 @@ green = PatternFill(start_color="00FF00", end_color="00FF00", fill_type="solid")
 red = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")
 
 last_text = ""
- 
+
 def find_or_create_today(ws, today):
     for row in range(2, ws.max_row + 1):
         if ws.cell(row, 1).value == today:
