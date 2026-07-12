@@ -1,5 +1,5 @@
 import pyperclip
-import time
+import time 
 from openpyxl import load_workbook
 from datetime import datetime
 from openpyxl.styles import PatternFill
