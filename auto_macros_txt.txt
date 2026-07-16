@@ -49,7 +49,7 @@ while True:
         text = pyperclip.paste()
     except:
         time.sleep(0.3)
-        continue
+        continue 
 
     if text != last_text and "FINAL_MACROS:" in text:
         try:
