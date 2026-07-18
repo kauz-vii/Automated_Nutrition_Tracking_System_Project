@@ -27,7 +27,7 @@ def update_excel(cal, pro, carb, fat):
 
     today = datetime.now().strftime("%d-%m-%Y")
     row = find_or_create_today(ws, today)
-
+ 
     ws.cell(row, 2).value = cal
     ws.cell(row, 3).value = pro
     ws.cell(row, 4).value = carb
