@@ -5,7 +5,7 @@ from datetime import datetime
 from openpyxl.styles import PatternFill
 import os 
 import sys
-
+ 
 FILE = os.path.join(os.path.dirname(os.path.abspath(sys.executable)), "Macros.xlsx")
  
 green = PatternFill(start_color="00FF00", end_color="00FF00", fill_type="solid")
